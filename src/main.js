@@ -12,7 +12,7 @@ import { vue3Spinner } from 'vue3-spinner'
 import VueGoogleMaps from "@fawmi/vue-google-maps";
 
 const httpLink = createUploadLink({
-  uri: 'http://localhost:8000/graphql',
+  uri: 'https://site222344.tw.cs.unibo.it/graphql',
 });
 
 
