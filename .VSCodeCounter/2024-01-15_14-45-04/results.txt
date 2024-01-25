@@ -1,0 +1,60 @@
+Date : 2024-01-15 14:45:04
+Directory : c:\Users\osama\Desktop\smm_frontend\src
+Total : 26 files,  4462 codes, 17 comments, 491 blanks, all 4970 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| vue        |         16 |      3,983 |          5 |        453 |      4,441 |
+| JavaScript |          8 |        459 |         12 |         35 |        506 |
+| CSS        |          2 |         20 |          0 |          3 |         23 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                       |         26 |      4,462 |         17 |        491 |      4,970 |
+| . (Files)                                                               |          4 |         78 |          0 |         16 |         94 |
+| chartsConfig                                                            |          1 |         15 |          0 |          1 |         16 |
+| components                                                              |          7 |        758 |          5 |         89 |        852 |
+| graphql                                                                 |          2 |        287 |          0 |         16 |        303 |
+| router                                                                  |          1 |         55 |          9 |          3 |         67 |
+| style                                                                   |          1 |          6 |          0 |          0 |          6 |
+| utils                                                                   |          2 |         55 |          3 |          6 |         64 |
+| views                                                                   |          8 |      3,208 |          0 |        360 |      3,568 |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\osama\Desktop\smm_frontend\src\App.vue                         | vue        |         17 |          0 |          4 |         21 |
+| c:\Users\osama\Desktop\smm_frontend\src\chartsConfig\chartConfig.js     | JavaScript |         15 |          0 |          1 |         16 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\CorrectMessage.vue   | vue        |         56 |          1 |          5 |         62 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\EmptyButton.vue      | vue        |         44 |          1 |          5 |         50 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\ErrorMessage.vue     | vue        |         65 |          1 |          6 |         72 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\FormField.vue        | vue        |        118 |          0 |         13 |        131 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\MainButton.vue       | vue        |         46 |          1 |          6 |         53 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\RegistrationForm.vue | vue        |        311 |          0 |         43 |        354 |
+| c:\Users\osama\Desktop\smm_frontend\src\components\SideNav.vue          | vue        |        118 |          1 |         11 |        130 |
+| c:\Users\osama\Desktop\smm_frontend\src\const.js                        | JavaScript |          4 |          0 |          0 |          4 |
+| c:\Users\osama\Desktop\smm_frontend\src\graphql\mutations.js            | JavaScript |        155 |          0 |         10 |        165 |
+| c:\Users\osama\Desktop\smm_frontend\src\graphql\queries.js              | JavaScript |        132 |          0 |          6 |        138 |
+| c:\Users\osama\Desktop\smm_frontend\src\main.js                         | JavaScript |         43 |          0 |          9 |         52 |
+| c:\Users\osama\Desktop\smm_frontend\src\router\index.js                 | JavaScript |         55 |          9 |          3 |         67 |
+| c:\Users\osama\Desktop\smm_frontend\src\style.css                       | CSS        |         14 |          0 |          3 |         17 |
+| c:\Users\osama\Desktop\smm_frontend\src\style\theme.css                 | CSS        |          6 |          0 |          0 |          6 |
+| c:\Users\osama\Desktop\smm_frontend\src\utils\fixed.js                  | JavaScript |         21 |          0 |          1 |         22 |
+| c:\Users\osama\Desktop\smm_frontend\src\utils\utils.js                  | JavaScript |         34 |          3 |          5 |         42 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\BuyChars.vue              | vue        |        474 |          0 |         46 |        520 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\HomeSmm.vue               | vue        |        142 |          0 |         21 |        163 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\MainPage.vue              | vue        |        187 |          0 |         28 |        215 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\NewSqueal.vue             | vue        |      1,031 |          0 |        122 |      1,153 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\Registration.vue          | vue        |         45 |          0 |          7 |         52 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\UserActivity.vue          | vue        |        675 |          0 |         76 |        751 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\UserNotifications.vue     | vue        |        286 |          0 |         34 |        320 |
+| c:\Users\osama\Desktop\smm_frontend\src\views\UserStats.vue             | vue        |        368 |          0 |         26 |        394 |
+| Total                                                                   |            |      4,462 |         17 |        491 |      4,970 |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+

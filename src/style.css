@@ -1,0 +1,85 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  color: inherit;
+}
+
+.bg-w{
+  background-color: white;
+}
+
+.bg-b{
+  background-color: black;
+  opacity: 0.25;
+}
+
+@keyframes appear{
+  0%{
+    transform: TranslateY(20px);
+    opacity: 0;
+  }
+  100%{
+    transform: TranslateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+
+.noInfoMessage{
+  display: flex;
+  width: min(400px, 80%);
+  flex-direction: column;
+  align-items: center;
+  animation: appear 0.5s ease-in-out;
+}
+
+.noInfoMessage img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  animation: shake 0.5s ease-in-out 0.5s;
+}
+
+.messageNoContainer{
+  text-align: center;
+  background: black;
+  color: white;
+  width: 80%;
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+@media(max-width: 576px){
+  .messageContainer{
+    font-size: 16px;
+  }
+
+  .noInfoMessage img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+    animation: shake 0.5s ease-in-out 0.5s;
+  }
+}
